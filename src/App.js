@@ -105,7 +105,7 @@ function App() {
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
-          marginTop : '80px',
+          marginTop:'80px',
           bgcolor: '#1f1e1e',
         }}
       >
@@ -180,7 +180,7 @@ function App() {
                 sx={{
                   bgcolor: 'green', color: 'black', '&:hover': {
                     bgcolor: 'darkgreen', // Change this to the desired hover color
-                  },
+                  },marginLeft: 1,marginTop:1
                 }}
                 onClick={handleAddTodo}
               >
@@ -192,7 +192,7 @@ function App() {
                   bgcolor: 'green', color: 'black', '&:hover': {
                     bgcolor: 'darkgreen', // Change this to the desired hover color
                   },
-                  marginLeft: 2,
+                  marginLeft: 1,marginTop:1
                 }}
                 onClick={() => setIsCompleteScreen(!isCompleteScreen)}
               >
